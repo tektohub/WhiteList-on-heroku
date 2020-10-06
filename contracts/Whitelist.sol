@@ -13,7 +13,7 @@ contract Whitelist {
         emit Whitelisted(_address);
     }
 
-    function getAddresses() public returns(address[] memory){
+    function getAddresses() public view returns(address[] memory){
         return addresses;
     }
 
